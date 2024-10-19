@@ -1,67 +1,78 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Es Teh Segar</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jual Es Teh Segar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .hero {
+      background-image: url('esteh.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .cta-btn {
+      background-color: #f39c12;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1>Es Teh Segar</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Beranda</a></li>
-                <li><a href="#produk">Produk</a></li>
-                <li><a href="#tentang">Tentang Kami</a></li>
-                <li><a href="#kontak">Kontak</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Segarnya Es Teh Pilihan</h1>
+      <p>Nikmati es teh dengan rasa yang menyegarkan, terbuat dari teh pilihan berkualitas.</p>
+      <button class="cta-btn">Pesan Sekarang</button>
+    </div>
+  </section>
 
-    <section id="home" class="banner">
-        <h2>Selamat Datang di Es Teh Segar</h2>
-        <p>Nikmati kesegaran teh manis kami yang cocok untuk semua suasana.</p>
-        <a href="#produk" class="cta">Lihat Produk</a>
-    </section>
+  <!-- About Section -->
+  <section class="container py-5">
+    <div class="row text-center">
+      <h2>Apa yang Membuat Es Teh Kami Istimewa?</h2>
+      <p class="lead">Kami menggunakan bahan-bahan alami dengan berbagai varian rasa untuk memenuhi selera Anda.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="lemon.jpg" class="img-fluid rounded-circle" alt="Lemon Es Teh">
+        <h3>Lemon Tea</h3>
+        <p>Es teh segar dengan rasa asam manis dari lemon.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="classic.jpg" class="img-fluid rounded-circle" alt="Classic Tea">
+        <h3>Classic Tea</h3>
+        <p>Rasa teh hitam yang klasik dan menyegarkan.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="peach.jpg" class="img-fluid rounded-circle" alt="Peach Tea">
+        <h3>Peach Tea</h3>
+        <p>Rasa buah peach yang lembut dan menyegarkan.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="produk" class="produk-section">
-        <h2>Produk Kami</h2>
-        <div class="produk-container">
-            <div class="produk-item">
-                <img src="https://via.placeholder.com/150" alt="Es Teh Original">
-                <h3>Es Teh Original</h3>
-                <p>Harga: Rp 5.000</p>
-            </div>
-            <div class="produk-item">
-                <img src="https://via.placeholder.com/150" alt="Es Teh Lemon">
-                <h3>Es Teh Lemon</h3>
-                <p>Harga: Rp 7.000</p>
-            </div>
-            <div class="produk-item">
-                <img src="https://via.placeholder.com/150" alt="Es Teh Susu">
-                <h3>Es Teh Susu</h3>
-                <p>Harga: Rp 8.000</p>
-            </div>
-        </div>
-    </section>
+  <footer class="text-center py-4">
+    <p>© 2024 Jual Es Teh Segar. All Rights Reserved.</p>
+  </footer>
 
-    <section id="tentang" class="tentang-section">
-        <h2>Tentang Kami</h2>
-        <p>Kami menyediakan minuman teh manis yang segar dan berkualitas, terbuat dari bahan alami dan pilihan.</p>
-    </section>
-
-    <section id="kontak" class="kontak-section">
-        <h2>Kontak Kami</h2>
-        <p>Email: estehsegar@example.com</p>
-        <p>Telepon: 0812-3456-7890</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Es Teh Segar. All Rights Reserved.</p>
-    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
